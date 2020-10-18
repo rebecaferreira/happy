@@ -40,7 +40,7 @@ jobs:
         
       - run:  | 
          yarn cy:run
-         yarn report:mocha
+         yarn report:mocha 
         
 
       # Runs a set of commands using the runners shell
