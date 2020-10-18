@@ -32,6 +32,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Runs a single command using the runners shell
+      - run: cd backend
+      - run: yarn install
+      - run: cd frontend
       - run: yarn install
       - run: yarn cy:run
       - run: npm run report:mocha
