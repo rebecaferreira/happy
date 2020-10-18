@@ -131,9 +131,9 @@ form.create-orphanage-form .input-block .button-select button {
 }
 
 form.create-orphanage-form .input-block .button-select button.active {
-  background: #EDFFF6;
-  border: 1px solid #A1E9C5;
-  color: #37C77F;
+  background: #deefff;
+  border: 1px solid #D3E2E5;
+  color: #109bc9;
 }
 
 form.create-orphanage-form .input-block .button-select button:first-child {

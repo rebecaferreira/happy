@@ -7,10 +7,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
+    "@types/node": "^12.12.68",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "axios": "^0.20.0",
+    "cypress": "^5.4.0",
     "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -24,7 +25,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "report:merge": "mochawesome-merge > index.json",
+    "report:mocha": "marge index.json",
+    "report:clean": "rd /s mochawesome-report"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,6 +49,13 @@
   },
   "devDependencies": {
     "@types/react-leaflet": "^2.5.2",
-    "@types/react-router-dom": "^5.1.6"
+    "@types/react-router-dom": "^5.1.6",
+    "chance": "^1.1.7",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.2.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
   }
 }
