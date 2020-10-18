@@ -29,6 +29,18 @@ This project was made during **Next Level Week** event, held by **Rocketseat**.
 
 **Happy** is a web application to find and visit orphanages nearby to make a child's day very **happy**!
 
+#### Landing Page
+<img src="/frontend/public/github/landing.png" width="800" height="400"/>
+
+#### Map Page
+<img src="/frontend/public/github/map.jpg" width="800" height="400" />
+
+#### Details Page
+<img src="/frontend/public/github/details.png" width="800" height="400" />
+
+#### Create new orphanage Page
+<img src="/frontend/public/github/create.png" width="800" height="400" />
+
  ## :computer: Technologies 
  
  This project was made using the following techologies:
