@@ -36,8 +36,9 @@ jobs:
       - run: yarn install
       - run: cd frontend
       - run: yarn install
+      - run: cd frontend
       - run: yarn cy:run
-      - run: npm run report:mocha
+      - run: yarn report:mocha
 
       # Runs a set of commands using the runners shell
       - name: deploy to github pages
