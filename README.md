@@ -114,6 +114,10 @@ You can run your tests by using the Cypress test runner, or in headless mode.
 #Headless mode
 $ yarn cy:run
 ```
+#### GIF of tests being executed:
+
+<img src="frontend/public/github/test-running-gif.gif"/>
+
 ### Generate Reports :memo:
 
 The report generator used in this project was **Mochawesome**. All reports go to a folder called *mochawesome-report* inside Cypress folder.
