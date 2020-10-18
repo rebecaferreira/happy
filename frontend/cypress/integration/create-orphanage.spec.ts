@@ -21,7 +21,7 @@ describe('Create orphanage', () => {
         cy.visit('/app')
     });
 
-    it.only('Should be able to create a new orphanage', () => {
+    it('Should be able to create a new orphanage', () => {
 
         cy.server()
         cy.route('POST', '**/orphanages')
